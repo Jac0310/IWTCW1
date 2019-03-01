@@ -1,46 +1,42 @@
 function search() {
-    var json = getjson();
-    $.getJSON("wimbledon-men-2013.json", function (json) {
+    var source = document.getElementById("gender").value
+    clearResults();
+    $.getJSON(source, function (json) {
         $.each(json, function (key, value)
         {
             read(key, value)
         })
     })
 }
+function clearResults()
+{
+    $(document).ready(function() {
+        $("#display").find("tr:gt(0)").remove();
+    });
+}
 
 
 function read(key, value)
 {
-    alert(key + " " +  value)
+    var blankRow = "<tr><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td></tr>"
     if (key === "match") {
-        $.each(value, function (k1, v1) {
-            matchnumber = k1
-            match = v1
+        $.each(value, function (matchnumber, match) {
             buildMatchRows(match)
-
+            $("#display").append(blankRow) //seperate matches
         })
     }
 }
 
 function buildMatchRows(match)
 {
-    var row1 = "<tr><td>"
-    var row2 = "<tr><td>"
+    var row = "<tr><td>"
     $.each(match, function (k, v) {
-        if (k === "round") {row1 += v; row2 += v}
+        if (k === "round") { row += v}
         if (k === "player") {
             $.each(v, function (playernumber, playerdata) {
-
-                if (playernumber === 0)
-                {
-                    buildRow(row1, playerdata)
-                }
-                else {
-                    buildRow(row2, playerdata)
-                }
+                buildRow(row, playerdata)
             })
         }
-
     })
 }
 
