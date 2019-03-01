@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5108ac16-2700-4124-bae3-8d7818f55194" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Wimbledon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WimbledonLogic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wimbledon-men-2013.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wimbledon-women-2013.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wimbledon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wimbledon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WimbledonLogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WimbledonLogic.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Wimbledon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="4" column="70" lean-forward="true" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -36,16 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WimbledonLogic.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wimbledon-men-2013.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1871">
-              <caret line="2979" column="1" selection-start-line="2979" selection-start-column="1" selection-end-line="2979" selection-end-column="1" />
+            <state relative-caret-position="42885">
+              <caret line="2859" column="10" lean-forward="true" selection-start-line="2859" selection-start-column="10" selection-end-line="2859" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -53,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wimbledon-women-2013.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
+            <state relative-caret-position="43335">
               <caret line="2889" column="1" selection-start-line="2889" selection-start-column="1" selection-end-line="2889" selection-end-column="1" />
             </state>
           </provider>
@@ -76,10 +78,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/WimbledonLogic.js" />
         <option value="$PROJECT_DIR$/src/wimbledon-men-2013i.json" />
         <option value="$PROJECT_DIR$/src/package.json" />
         <option value="$PROJECT_DIR$/src/Wimbledon.html" />
+        <option value="$PROJECT_DIR$/src/WimbledonLogic.js" />
       </list>
     </option>
   </component>
@@ -121,7 +123,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551440476755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551453672626" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -148,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551438708581</updated>
-      <workItem from="1551438709931" duration="1232000" />
+      <workItem from="1551438709931" duration="8221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1232000" />
+    <option name="totallyTimeSpent" value="8221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="936" extended-state="0" />
@@ -193,9 +195,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WimbledonLogic.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wimbledon-men-2013.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -203,17 +202,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wimbledon-men-2013.json">
+    <entry file="file://$PROJECT_DIR$/src/wimbledon-women-2013.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1871">
-          <caret line="2979" column="1" selection-start-line="2979" selection-start-column="1" selection-end-line="2979" selection-end-column="1" />
+        <state relative-caret-position="43335">
+          <caret line="2889" column="1" selection-start-line="2889" selection-start-column="1" selection-end-line="2889" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wimbledon-women-2013.json">
+    <entry file="file://$PROJECT_DIR$/src/wimbledon-men-2013.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="2889" column="1" selection-start-line="2889" selection-start-column="1" selection-end-line="2889" selection-end-column="1" />
+        <state relative-caret-position="42885">
+          <caret line="2859" column="10" lean-forward="true" selection-start-line="2859" selection-start-column="10" selection-end-line="2859" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home!/jdk.javadoc/jdk/javadoc/internal/doclets/formats/html/resources/jquery/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="1618" column="4" selection-start-line="1618" selection-start-column="4" selection-end-line="1618" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wimbledon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="70" lean-forward="true" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -226,10 +239,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wimbledon.html">
+    <entry file="file://$PROJECT_DIR$/src/WimbledonLogic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="480">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
         </state>
       </provider>
     </entry>

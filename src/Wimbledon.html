@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title> Hello </title>
+    <script type="text/javascript" src = "WimbledonLogic.js"></script>
+    <!--<script type="text/javascript" src="wimbledon-men-2013.json"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
     <meta charset="UTF-8">
     <titl>Wimbledon</titl></title>
 </head>
 <body>
-    <Button  >
+    <Button onclick= search()>
         Display Results
     </Button>
+    <table id="display">
+        <tr>
+            <th>Round</th>
+            <th>Player</th>
+            <th>Set1</th>
+            <th>Set2</th>
+            <th>Set3</th>
+            <th>Set4</th>
+            <th>Set5</th>
+        </tr>
+    </table>
 
 </body>
 </html>
 
+
+<!--http://titan.dcs.bbk.ac.uk/~jthoma24/wimbledon/Wimbledon.html-->
 
 <!--function tableOfSquares() {-->
 <!--// Display a prompt with a zero in it-->
