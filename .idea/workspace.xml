@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5108ac16-2700-4124-bae3-8d7818f55194" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Wimbledon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wimbledon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WimbledonLogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WimbledonLogic.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WimbledonLogic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            <state relative-caret-position="960">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -123,7 +122,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551453672626" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551456621053" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -150,12 +149,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551438708581</updated>
-      <workItem from="1551438709931" duration="8221000" />
+      <workItem from="1551438709931" duration="10894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8221000" />
+    <option name="totallyTimeSpent" value="10894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="936" extended-state="0" />
@@ -223,13 +222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wimbledon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="70" lean-forward="true" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -239,10 +231,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wimbledon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="70" lean-forward="true" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WimbledonLogic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state relative-caret-position="960">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
