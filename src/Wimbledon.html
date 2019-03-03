@@ -11,13 +11,48 @@
     <titl>Wimbledon</titl></title>
 </head>
 <body>
-    <select id = "gender">
-        <option value="wimbledon-women-2013.json">Womens 2013</option>
-        <option value="wimbledon-men-2013.json">Mens 2013</option>
-    </select>
-    <Button onclick= search()>
-        Display Results
-    </Button>
+    <div>
+        <form>
+            Name:
+            <select id = "nameRestriction">
+                <option>Equals</option>
+                <option>Contains</option>
+                <option>None</option>
+            </select>
+            <input type="text" name="name" id = "name">
+        </form>
+    </div>
+    <div>
+        <form>
+            Round:
+            <select id = "roundRestriction">
+                <option>Equals</option>
+                <option>Greater than</option>
+                <option>Less than</option>
+            </select>
+            <input type="number" name="round" id = "round">
+        </form>
+    </div>
+    <div>
+        <form>
+            Sets:
+            <select id = "setRestriction">
+                <option>Equals</option>
+                <option>Greater than</option>
+                <option>Less than</option>
+            </select>
+            <input type="number" name="set" id = "set">
+        </form>
+    </div>
+    <div>
+        <select id = "gender">
+            <option value="wimbledon-women-2013.json">Womens 2013</option>
+            <option value="wimbledon-men-2013.json">Mens 2013</option>
+        </select>
+        <Button onclick= search()>
+            Display Results
+        </Button>
+    </div>
     <table id="display">
         <tr>
             <th>Round</th>
