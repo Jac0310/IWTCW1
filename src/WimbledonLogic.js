@@ -13,7 +13,7 @@ function search() {
 
 function setRestrictions()
 {
-
+//set restrictions based on input constraints
     var nameRestrictionValue = $("#name").val().toLowerCase()
     var nameRestrictionOperator = $("#nameRestriction").val()
     var setRestrictionValue = $("#set").val()
@@ -26,8 +26,6 @@ function setRestrictions()
         "round" : {"value" : roundRestrictionValue, "operator" : roundRestrictionOperator}
     }
     return restrictions
-
-
 }
 function clearResults()
 {
@@ -230,42 +228,4 @@ function namePredicate(name1, restrictions)
         return true;
     }
 }
-
-// function recursiveRead(key, value, row)
-// {
-//     var blankRow = "<tr><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td></tr>"
-//     if (key === "match") {
-//         $.each(value, function (matchnumber, match) {
-//             // buildMatchRows(match)
-//             // row.append("<tr><td>")
-//             row += "<tr><td>"
-//             $.each(match, function(k, v) {
-//                 recursiveRead(k,v,row);
-//                 $("#display").append(blankRow) //seperate matches
-//             })
-//         })
-//     }
-//     else if (key ==="round") {row += value}
-//     else if (key === "player")
-//     {
-//         $.each(value, function(playernumber, playerdata) {
-//             recursiveRead(playernumber, playerdata, row)
-//         })
-//     }
-//     else if (key === "name" && row != "") {row += "</td><td>" + value}
-//     else if (key === "set") {
-//         var i;
-//         for ( i = 0; i < value.length; i++)
-//         {
-//             row += "</td><td>" + value[i];
-//         }
-//         row += "</td><tr>"
-//         $("#display").append(row)
-//     }
-//     else if (key === "outcome" &&  value === "won")
-//     {
-//         row.replace(name, "<b>" + name + "</b>")
-//     }
-//
-// }
 

@@ -1,69 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <head>
     <title> Hello </title>
     <script type="text/javascript" src = "WimbledonLogic.js"></script>
-    <!--<script type="text/javascript" src="wimbledon-men-2013.json"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
     <meta charset="UTF-8">
-    <titl>Wimbledon</titl></title>
+
 </head>
+
 <body>
-    <div>
-        <form>
-            Name:
-            <select id = "nameRestriction">
-                <option>Equals</option>
-                <option>Contains</option>
-                <option>None</option>
-            </select>
-            <input type="text" name="name" id = "name">
-        </form>
-    </div>
-    <div>
-        <form>
-            Round:
-            <select id = "roundRestriction">
-                <option>Equals</option>
-                <option>Greater than</option>
-                <option>Less than</option>
-            </select>
-            <input type="number" name="round" id = "round">
-        </form>
-    </div>
-    <div>
-        <form>
-            Sets:
-            <select id = "setRestriction">
-                <option>Equals</option>
-                <option>Greater than</option>
-                <option>Less than</option>
-            </select>
-            <input type="number" name="set" id = "set">
-        </form>
-    </div>
-    <div>
-        <select id = "gender">
-            <option value="wimbledon-women-2013.json">Womens 2013</option>
-            <option value="wimbledon-men-2013.json">Mens 2013</option>
-        </select>
-        <Button onclick= search()>
-            Display Results
-        </Button>
-    </div>
-    <table id="display">
-        <tr>
-            <th>Round</th>
-            <th>Player</th>
-            <th>Set1</th>
-            <th>Set2</th>
-            <th>Set3</th>
-            <th>Set4</th>
-            <th>Set5</th>
-        </tr>
-    </table>
+<h1 align="center">Wimbledon</h1>
+
+            <div align="center" >
+                <form display="block">
+                    <fieldset style="width: max-content;">
+                        <legend>Enter Restrictions</legend>
+                        Name:
+                        <select id = "nameRestriction">
+                            <option>Equals</option>
+                            <option>Contains</option>
+                            <option>None</option>
+                        </select>
+                        <input type="text" name="name" id = "name"><br>
+
+
+
+                        Round:
+                        <select id = "roundRestriction">
+                            <option>Equals</option>
+                            <option>Greater than</option>
+                            <option>Less than</option>
+                        </select>
+                        <input type="number" name="round" id = "round"><br>
+
+
+
+                        Sets:
+                        <select id = "setRestriction">
+                            <option>Equals</option>
+                            <option>Greater than</option>
+                            <option>Less than</option>
+                        </select>
+                        <input type="number" name="set" id = "set"><br>
+
+                        <select id = "gender">
+                            <option value="wimbledon-women-2013.json">Womens 2013</option>
+                            <option value="wimbledon-men-2013.json">Mens 2013</option>
+                        </select>
+                        <Button onclick= search() type="button">
+                            Display Results
+                        </Button><br>
+                    </fieldset>
+                </form>
+            </div>
+            <table class="activeTableTab" id="display" align="center">
+                <tr>
+                    <th>Round</th>
+                    <th>Player</th>
+                    <th>Set1</th>
+                    <th>Set2</th>
+                    <th>Set3</th>
+                    <th>Set4</th>
+                    <th>Set5</th>
+                </tr>
+            </table>
+
 
 </body>
 </html>
