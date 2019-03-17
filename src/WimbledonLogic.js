@@ -29,6 +29,7 @@ function setRestrictions()
 }
 function clearResults()
 {
+    //clears previous results
     $(document).ready(function() {
         $("#display").find("tr:gt(0)").remove();
     });
@@ -37,6 +38,7 @@ function clearResults()
 
 function read(key, value, restrictions)
 {
+    //reads each result that matches restrictions and populates table
     var blankRow = "<tr><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td><td>" + "---" + "</td></tr>"
     if (key === "match") {
         $.each(value, function (matchnumber, match) {
@@ -51,6 +53,7 @@ function read(key, value, restrictions)
 
 function buildMatchRows(match)
 {
+    //populates two rows equating to a match
     var row = "<tr><td>"
     $.each(match, function (k, v) {
         if (k === "round") { row += v}
@@ -64,6 +67,7 @@ function buildMatchRows(match)
 
 function buildRow(row, playerdata)
 {
+    //populates one row based on individual players results in match
     var name;
     row += "</td><td>"
     $.each(playerdata, function (k,v) {
@@ -88,6 +92,7 @@ function buildRow(row, playerdata)
 
 function matchPredicate(match, restrictions)
 {
+    //boolean function that tests if the match meets restrictions defined by the user
     var round = 0
     var name1 = ""
     var name2 = ""
@@ -126,6 +131,7 @@ function matchPredicate(match, restrictions)
 
 function setPredicate(set, restrictions)
 {
+    //predicate that returns true if set meets set restrictions else false
     var sets = ""
     var filter = ""
     $.each(restrictions, function (k, v) {
@@ -145,7 +151,7 @@ function setPredicate(set, restrictions)
     })
     if (filter === "Equals")
     {
-        set = "" + set; // bug why is sets  string?
+        set = "" + set;
         return set === sets
     }
     else if (filter === "Greater than")
@@ -162,6 +168,7 @@ function setPredicate(set, restrictions)
 
 function roundPredicate(round, restrictions)
 {
+    //predicate that returns true if round meets round restrictions else false
     var rounds = ""
     var filter = ""
     $.each(restrictions, function (k, v) {
@@ -197,6 +204,7 @@ function roundPredicate(round, restrictions)
 
 function namePredicate(name1, restrictions)
 {
+    //predicate that returns true if name meets name restrictions else false
     name1 = name1.toLowerCase()
     var name2 = ""
     var filter = ""
